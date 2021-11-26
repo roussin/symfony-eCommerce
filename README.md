@@ -5,6 +5,8 @@
   - [Commande symfony](#commande-symfony)
 
 ## Pré-requis
+- PHP 7.2
+- Composer
 - Docker et Docker-compose (mailcatcher / mysql version 8.0)
 - Symfony CLI
 
@@ -25,4 +27,6 @@ mysql> show tables;
 - Une fois le container démarré symfony se connecte automatiquement grâce aux variables d'environnement du container: `symfony var:export --multiline`
 
 ## Bootstrap template
+
+template utilisé: [carousel](https://getbootstrap.com/docs/5.0/examples/carousel/)
 
